@@ -13,7 +13,7 @@
     <fieldset>
         <legend>Cadastro de Pessoa</legend>
 
-        <form method="post" action="/pessoa/form/save">
+        <form method="post" action="http://localhost/default-project/App/pessoa/form/save">
 
             <input type="hidden" value="<?= $model->id ?>" name="id" />
             
