@@ -72,7 +72,7 @@ class PessoaController extends Controller
 
        $model->save(); // chamando o método save da model.
 
-       header("Location: default-project/App/pessoa"); // redirecionando o usuário para outra rota.
+       header("Location: http://localhost/default-project/App/pessoa"); // redirecionando o usuário para outra rota.
     }
 
 
@@ -85,6 +85,6 @@ class PessoaController extends Controller
 
         $model->delete( (int) $_GET['id'] ); // Enviando a variável $_GET como inteiro para o método delete
 
-        header("Location: default-project/App/pessoa"); // redirecionando o usuário para outra rota.
+        header("Location: http://localhost/default-project/App/pessoa"); // redirecionando o usuário para outra rota.
     }
 }
